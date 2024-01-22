@@ -17,8 +17,8 @@
     <description>ecommerce-test</description>
 
     <modules>
-        <module>CartService</module>
-        <module>ProductService</module>
+        <module>cartService</module>
+        <module>productService</module>
         <module>commons</module>
     </modules>
 

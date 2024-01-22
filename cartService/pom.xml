@@ -8,7 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>CartService</artifactId>
+    <artifactId>cartService</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>CartService</name>
     <description>CartService</description>
