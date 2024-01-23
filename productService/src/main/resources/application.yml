@@ -1,5 +1,5 @@
 server:
-  port: 8045
+  port: 9092
 spring:
   application:
     name: product-service
