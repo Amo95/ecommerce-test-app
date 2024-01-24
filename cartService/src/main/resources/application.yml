@@ -1,5 +1,5 @@
 server:
-  port: 9090
+  port: 8049
 
 spring:
   application:
@@ -12,3 +12,11 @@ spring:
 product:
   jms:
     destination: product
+
+eureka:
+  instance:
+    appname: ${spring.application.name}
+  client:
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:9000/eureka
