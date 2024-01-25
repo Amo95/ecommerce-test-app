@@ -1,4 +1,4 @@
-<h1 align="center"> places-api</h1>
+<h1 align="center"> ecommerce test app</h1>
 
 <p align = "center">
     <a href="https://github.com/Amo95/places-api/blob/main/LICENSE">
