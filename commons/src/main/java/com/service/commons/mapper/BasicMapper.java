@@ -1,4 +1,4 @@
-package com.service.commons.utils;
+package com.service.commons.mapper;
 
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 public class BasicMapper {
 
     private final ModelMapper mapper;
+
     public <T, S> S convertTo(T data, Class<S> type) {
         return mapper.map(data, type);
     }

@@ -2,7 +2,7 @@ package com.service.service.mapper;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.service.commons.utils.BasicMapper;
+import com.service.commons.mapper.BasicMapper;
 import com.service.dto.ProductRequest;
 import com.service.dto.ProductResponse;
 import com.service.exceptions.NotFoundException;
